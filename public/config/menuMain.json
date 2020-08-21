@@ -1,0 +1,86 @@
+[
+  {
+    "icon": "fa fa-home",
+    "slug": "external",
+    "title": "Volver al inicio",
+    "path": "index.html"
+  },  
+  { 
+    "id": 1,
+    "icon": "fa fa-play-circle",
+    "slug": "introduccion1",
+    "title": "Introducción",
+    "breadcrumb": ["Inicio","introduccion1"],
+    "path": "pages/intro1.html"
+  },
+  {
+    "id": 2,
+    "icon": "fa fa-file-text",
+    "slug": "descubrimiento",
+    "title": "1. Guía de para el descubrimiento de tesoros locales",
+    "breadcrumb": ["Inicio","descubrimiento"],
+    "path": "pages/1-tema.html",
+    "submenu": [
+      {
+        "icon": "fa fa-file-text",
+        "slug": "descubrimiento",
+        "title": "Objetivos de la guía",
+        "anchor": "objetivos1"
+      },
+      {
+        "icon": "fa fa-file-text",
+        "slug": "descubrimiento",
+        "title": "Conceptos",
+        "anchor": "conceptos1"
+      },
+      {
+        "icon": "fa fa-file-text",
+        "slug": "descubrimiento",
+        "title": "Instrucciones para desarrollo del taller “Descubrimiento de tesoros locales”",
+        "anchor": "instrucciones1"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "icon": "fa fa-play-circle",
+    "slug": "introduccion2",
+    "title": "Introducción",
+    "breadcrumb": ["Inicio","introduccion2"],
+    "path": "pages/intro2.html"
+  },
+  {
+    "id": 4,
+    "icon": "fa fa-file-text",
+    "slug": "construccion",
+    "title": "2. Guía para la construcción del sueño colectivo OVOP",
+    "breadcrumb": ["Inicio","construccion"],
+    "path": "pages/2-tema.html",
+    "submenu": [
+      {
+        "icon": "fa fa-file-text",
+        "slug": "construccion",
+        "title": "Objetivos de la guía",
+        "anchor": "objetivos2"
+      },
+      {
+        "icon": "fa fa-file-text",
+        "slug": "construccion",
+        "title": "Conceptos",
+        "anchor": "conceptos2"
+      },
+      {
+        "icon": "fa fa-file-text",
+        "slug": "construccion",
+        "title": "Instrucciones para desarrollo del taller “Sueño colectivo”",
+        "anchor": "instrucciones2"
+      }
+    ]
+  },
+  {
+    "icon": "fa fa-question-circle",
+    "slug": "actividad-1",
+    "title": "Actividad didáctica",
+    "path": "pages/actividad-1.html"
+  } 
+]
