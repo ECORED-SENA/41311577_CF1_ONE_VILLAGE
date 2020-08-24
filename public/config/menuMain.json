@@ -76,11 +76,5 @@
         "anchor": "instrucciones2"
       }
     ]
-  },
-  {
-    "icon": "fa fa-question-circle",
-    "slug": "actividad-1",
-    "title": "Actividad didáctica",
-    "path": "pages/actividad-1.html"
-  } 
+  }
 ]
