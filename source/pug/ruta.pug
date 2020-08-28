@@ -1,0 +1,113 @@
+include mixins/functions
+
+doctype
+html(lang="es")
+    head
+        meta(charset="UTF-8")
+        meta(name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0")
+        title Ruta de aprendizaje
+        meta(meta name="description" content="Ruta de aprendizaje programa Orientación en la Metodología One Village One Product - OVOP Colombia.")    
+        link(rel="icon",type="image/svg+xml",href="assets/images/logos/senaLogo.svg")
+        link(rel="stylesheet", href="assets/fonts/feather/feather.css")
+        link(rel="stylesheet", href="assets/fonts/fontawesome/css/font-awesome.css")
+        link(href='assets/css/fancybox.css', rel='stylesheet')
+        link(href='assets/css/animate.css', rel='stylesheet')
+        link(rel="stylesheet", href="assets/css/main.css")
+
+
+    body#page-home.theme-dark.page-header-textura
+
+        header#CursoPresentacion.curso-presentacion.page-header
+            .page-textura
+                .container
+
+                    .curso-topbar
+                        
+                        a.curso-topbar__logo
+                            include ../assets/images/logos/senaLogo.svg
+
+                    .curso-portada
+
+                        .row.align-items-center
+
+                            .col-12.col-lg-6
+
+                                h3.curso-subtitulo Orientación en la Metodología One Village One Product - OVOP Colombia
+                                h1.curso-titulo Ruta de aprendizaje
+
+                                .brand-line-primary
+
+                                p.curso-descripcion A continuación se presentan las actividades de aprendizaje que debe realizar el aprendiz durante el proceso formativo, estableciendo los tiempos, recursos educativos y evidencias que le permitirán  cumplir con los resultados de aprendizaje definidos para el programa de formación Orientación en la Metodología One Village One Product - OVOP Colombia.
+                    
+
+                            .col-12.col-lg-6
+                                .d-none.d-lg-block
+                                    img(src="assets/images/header/header_ruta.svg")           
+
+        section#ruta.curso-resultados.section.bg-base-light.container
+
+            .subtitulo-guion.my-4
+                h2 Guía de aprendizaje 1 <br><small class="text-muted letter-spacing-1x font-weight-bold">Duración: 60 horas</small>
+
+            .timeline__wrapper.jumbotron.py-3.px-5
+
+                section#timeline
+                    .timeline__item.br--bottom   
+                        img(src="assets/images/ruta/inicio.svg", alt="")            
+                        p Inicio              
+                    .timeline-card-wrapper                              
+                        .timeline-card.card--step1
+                            .timeline-card__head
+                                .number-box
+                                    span 01
+                                .title-box #[strong Actividad de aprendizaje:] Elaborar una propuesta de desarrollo local bajo el enfoque OVOP - Mi Pueblo, Mi Producto, Mi Orgullo, incorporando el uso de las TIC.
+                            .timeline-card__body            
+                                .body-content-wrapper            
+                                    p #[strong Resultado de aprendizaje]</br>
+                                    ul.bg-color-dark
+                                        li 
+                                            span Apropiar herramientas metodológicas para el desarrollo local, a partir de la estrategia Mi Pueblo, Mi Producto, Mi Orgullo-OVOP Colombia.
+                                        li 
+                                            span Aplicar la metodología OVOP Colombia, teniendo en cuenta el contexto territorial y técnicas de trabajo participativo.
+                                    .tl-hr-divider
+                                    p #[strong Material de formación]</br> 
+                                    ul.bg-color-dark
+                                        li 
+                                            span Fase 1 Metodología OVOP.
+                                        li 
+                                            span Fase 2 Metodología OVOP.
+                                        li 
+                                            span Fase 3 Metodología OVOP.
+                                        li 
+                                            span Fase 4 Metodología OVOP.
+                                    .tl-hr-divider
+                                    p #[strong Evidencias:] 
+                                        ul.bg-color-dark
+                                            li 
+                                                span #[strong AA1-EV01:] Resúmenes guías metodológicas OVOP. 
+                                                br
+                                                br
+                                                span Realizar un resumen para cada guía OVOP,  el cual debe presentarse a manera de control de lectura, seleccionando para cada caso una técnica didáctica diferente,  como por ejemplo: mapa mental, mapa conceptual, documento escrito, cuadro resumen, cuadro sinóptico, posters o infografías.
+
+                                            li 
+                                                span #[strong AA1-EV02:] Propuesta de desarrollo local OVOP Mi Pueblo, Mi Producto, Mi Orgullo. 
+                                                br
+                                                br
+                                                span Seleccionar un medio de difusión para socializar la propuesta de desarrollo local OVOP Mi Pueblo, Mi Producto, Mi Orgullo, incorporando el uso de las TIC.
+    
+                    .timeline__item.br--top                
+                        img(src="assets/images/ruta/certificacion.svg", alt="")    
+                        p Certificación        
+                    
+
+        +creditosFooter("assets/images/logos/senaLogo.svg")
+
+
+        script(src="assets/js/vendor.js")
+        script(src="assets/js/global.js")        
+        script(src="assets/js/pages.js")
+
+
+
+
+
