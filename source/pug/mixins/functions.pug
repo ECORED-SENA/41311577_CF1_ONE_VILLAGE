@@ -24,11 +24,11 @@ mixin pageHeader(tituloTema, srcImagen, pagina)
 
                 else 
 
-                    p.curso-descripcion Este componente formativo corresponde a la Fase 1 de la Metodología OVOP y abarca dos guías metodológicas: la No 1, 
-                        i Guía para el descubrimiento de tesoros locales 
-                        | y la No 2, 
-                        i Guía para la construcción del sueño colectivo OVOP
-                        | . Estas guías se constituyen en el punto de partida de la ruta metodológica de la estrategia de desarrollo local OVOP – Colombia, y tiene por objetivo, en primer lugar, identificar aquellos recursos de un territorio (tesoros) que pueden estimular el desarrollo al interior de la comunidad y, en segundo lugar, construir un sueño colectivo o la visión a partir del aprovechamiento de los recursos identificados.
+                    p.curso-descripcion Este componente formativo corresponde a la Fase 1 de la Metodología OVOP y abarca dos guías metodológicas: 
+                    ul.curso-descripcion
+                        li Guía No 1 para el descubrimiento de tesoros locales.
+                        li Guía No 2 para la construcción del sueño colectivo OVOP.
+                    p.curso-descripcion Estas guías se constituyen en el punto de partida de la ruta metodológica de la estrategia de desarrollo local OVOP – Colombia, y tiene por objetivo, en primer lugar, identificar aquellos recursos de un territorio (tesoros) que pueden estimular el desarrollo al interior de la comunidad y, en segundo lugar, construir un sueño colectivo o la visión a partir del aprovechamiento de los recursos identificados.
         
                 if pagina == 'home'
                     a.curso-btn-iniciar.btn.btn-danger(href="main.html")
