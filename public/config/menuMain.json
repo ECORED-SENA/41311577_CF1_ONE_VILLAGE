@@ -17,7 +17,7 @@
     "id": 2,
     "icon": "fa fa-file-text",
     "slug": "descubrimiento",
-    "title": "1. Guía de para el descubrimiento de tesoros locales",
+    "title": "1. Guía para el descubrimiento de tesoros locales",
     "breadcrumb": ["Inicio","descubrimiento"],
     "path": "pages/1-tema.html",
     "submenu": [
